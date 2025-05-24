@@ -37,18 +37,49 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 核心团队 */}
+
+
+      {/* 公司高管 */}
       <section id="team" className="py-16 bg-gradient-to-r from-orange-50 to-yellow-50 border-b border-orange-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-8 text-orange-600 tracking-wide">核心团队</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-orange-600 tracking-wide">公司高管</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-orange-100 hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold mb-2 text-orange-700">董事长：陈志皓 先生</h3>
-              <p className="text-gray-700">现就读于南京理工大学电子工程与光电技术学院，通信工程硕士。</p>
+              <p className="text-gray-700 leading-relaxed">陈志皓先生在大模型开发与前沿科技研究领域拥有深厚的造诣与丰富的实践经验。他在人工智能、自然语言处理及高性能计算等方向取得了显著科研成果，致力于将前沿技术转化为创新产品与教学资源，引领公司在科技创新领域不断探索前行。</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-orange-100 hover:shadow-2xl transition">
               <h3 className="text-xl font-semibold mb-2 text-orange-700">总经理：吴加成 女士</h3>
-              <p className="text-gray-700">具有非常丰富的出版经验与图书市场化经验，同时还是浙江出版协会的副会长。</p>
+              <p className="text-gray-700 leading-relaxed">吴加成女士是资深出版行业专家及杰出职业经理人，拥有丰富的图书市场化运作经验。她精准把握行业脉搏，擅长团队建设与运营管理，在推动公司业务发展和品牌建设方面发挥关键作用。同时，吴加成女士兼任董事长秘书一职，协助董事长处理重要事务。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 公司核心成员 */}
+      <section className="py-16 bg-white border-b border-orange-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12 text-orange-600 tracking-wide">公司核心成员</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-orange-50 p-6 rounded-xl shadow-md border border-orange-100">
+              <h4 className="text-lg font-semibold mb-2 text-orange-700">保安队长：旺财</h4>
+              <p className="text-gray-700">作为公司最忠实的伙伴，旺财负责守护公司安全，以饱满的热情迎接每一位到访者，是公司不可或缺的一员。</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-xl shadow-md border border-orange-100">
+              <h4 className="text-lg font-semibold mb-2 text-orange-700">前端工程师：菜菜龙</h4>
+              <p className="text-gray-700">菜菜龙专注于打造用户友好的界面和流畅的交互体验，用精湛的前端技术呈现公司形象与服务。</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-xl shadow-md border border-orange-100">
+              <h4 className="text-lg font-semibold mb-2 text-orange-700">后端工程师：小狼</h4>
+              <p className="text-gray-700">小狼构建稳健高效的后台服务，为网站各项功能提供强大的技术支撑，是公司业务稳定运行的基石。</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-xl shadow-md border border-orange-100">
+              <h4 className="text-lg font-semibold mb-2 text-orange-700\">技术支持专家：鲨鲨</h4>
+              <p className="text-gray-700">鲨鲨凭借深厚的技术积累，为客户提供专业的技术咨询与支持服务，耐心解答疑问，确保用户获得最佳体验。</p>
+            </div>
+            <div className="bg-orange-50 p-6 rounded-xl shadow-md border border-orange-100">
+              <h4 className="text-lg font-semibold mb-2 text-orange-700\">客服：旦旦</h4>
+              <p className="text-gray-700">旦旦以真诚热情的服务态度，在线解答客户疑问，收集用户反馈，是公司与客户沟通的重要桥梁。</p>
             </div>
           </div>
         </div>
